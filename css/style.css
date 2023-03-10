@@ -181,6 +181,25 @@ header ul li a{
         display: none;
     }
 
+    .toggle{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(/img/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+    }
+
+    .toggle.active{
+        background: url(/img/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     section{
         padding: 20px 20px 120px;
     }
